@@ -14,9 +14,13 @@
 }
 
 header {
-    top: 0;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 10;
     left: 0;
     box-sizing: border-box;
+    border-bottom-style: none;
     margin: 0;
     padding: 0;
     color: inherit;

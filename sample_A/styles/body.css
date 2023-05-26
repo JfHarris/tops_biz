@@ -9,7 +9,6 @@ body {
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -27,4 +26,46 @@ body {
     --color--pale-cyan-blue: #8ed1fc;
     --color--vivid-cyan-blue: #0693e3;
     --color--vivid-purple: #9b51e0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--color--white);
+    position: absolute;
+    top: 160px;
+    padding-left: 50px;
+}
+
+.comply-top-section {
+    position: relative;
+    top: 0;
+    background-image: url(https://www.total-operations.com/wp-content/uploads/2021/06/DSC_3424-scaled.jpg);
+    background-position: bottom;
+    height: 100vh;
+    width: auto;
+}
+
+.top-section-content {
+    position: relative;
+}
+
+.top-section-content p {
+    color: var(--color--white);
+    position: relative;
+    top: 200px;
+    padding: 50px;
+    max-width: 50%;
+}
+
+
+.comply-second-section {
+    position: relative;
+    background-image: url(../assets/daytime.png);
+    background-position: bottom;
+    width: 100%;
+    height: 75vh;
 }

@@ -60,9 +60,11 @@ h1 {
     padding: 50px;
     max-width: 50%;
     padding-left: 35vh;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
-/* Secon Section */
+/* Second Section */
 
 .comply-second-section {
     position: relative;
@@ -102,6 +104,17 @@ h1 {
     align-items: center;
 }
 
+.icon-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-heading i {
+    padding-right: 10px;
+}
+
 /* Contact Us Section */
 
 .contact-wrapper {
@@ -117,10 +130,24 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 1rem;
 }
 
 .contact-content h3 {
     font-size: x-large;
     font-weight: 900;
     color: var(--color--white);
+    padding-right: 10rem;
+}
+
+.contact-link button {
+    height: 60px;
+    width: 120px;
+    background-color: var(--color--cyan-bluish-gray);
+    cursor: pointer;
+    border: none;
+}
+
+.contact-link button:hover {
+    background-color: var(--color--white);
 }

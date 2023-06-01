@@ -104,6 +104,22 @@ h1 {
     align-items: center;
 }
 
+.third-section-content .fa-stack {
+    padding-right: 10px;
+}
+
+.icon-heading h4 {
+    font-weight: bolder;
+}
+
+.zoom {
+    transition: all 0.75s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
 .icon-heading {
     display: flex;
     flex-direction: row;
@@ -141,6 +157,7 @@ h1 {
 }
 
 .contact-link button {
+    font-family: inherit;
     height: 60px;
     width: 120px;
     background-color: var(--color--cyan-bluish-gray);

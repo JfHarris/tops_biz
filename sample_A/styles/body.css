@@ -112,13 +112,28 @@ h1 {
     font-weight: bolder;
 }
 
-.zoom {
+.text-1 {
+    transition: all 0.75s ease-in-out;
+}
+
+.text-1:hover {
+    transform: scale(1.2);
+}
+
+.text-2 {
+    transition: all 0.75s ease-in-out;
+}
+
+.text-2:hover {
+    transform: scale(1.2);
+}
+/*.zoom {
     transition: all 0.75s ease-in-out;
 }
 
 .zoom:hover {
     transform: scale(1.2);
-}
+}*/
 
 .icon-heading {
     display: flex;
